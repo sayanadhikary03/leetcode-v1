@@ -17,10 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0027-remove-element) |
+| [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 ## Hash Table
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
+| [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Matrix
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0021-merge-two-sorted-lists) |
+| [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
