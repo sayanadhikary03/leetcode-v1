@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0058-length-of-last-word) |
+| [0093-restore-ip-addresses](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0093-restore-ip-addresses) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -105,4 +106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Backtracking
+|  |
+| ------- |
+| [0093-restore-ip-addresses](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0093-restore-ip-addresses) |
 <!---LeetCode Topics End-->
