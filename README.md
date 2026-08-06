@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
+| [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0143-reorder-list) |
+| [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 ## Hash Table
 |  |
 | ------- |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -55,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0016-3sum-closest) |
+| [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -142,4 +146,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
