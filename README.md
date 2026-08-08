@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0231-power-of-two) |
 ## Union-Find
 |  |
 | ------- |
@@ -160,4 +161,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
+## Math
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0231-power-of-two) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
