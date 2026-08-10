@@ -63,3 +63,46 @@ public:
         return current;
     }
 };
+
+// ## 1. In Recursion (Looking Forward): We use `i + 1` and `i + 2`
+
+// When you write the recursive **(Top-Down)** solution, you start at the **ground floor (step 0)** and look *forward* toward the top.
+
+// * You ask yourself: **"If I am standing on step `i`, what are my next choices?"**
+// * Your choices are to step forward to `i + 1` or `i + 2`.
+// * Therefore, the code looks ahead:
+
+// ```cpp
+// fun(i + 1) + fun(i + 2)
+// ```
+
+// ---
+
+// ## 2. In Tabulation (Looking Backward): We use `i - 1` and `i - 2`
+
+// When you write the iterative **(Bottom-Up)** loop, the code runs from `2` up to `n`. You are building a history table.
+
+// When the loop reaches a step, let's say `i = 4`, you are already calculating the value for step `4`.
+
+// You look *backward* at the history you already calculated and ask:
+
+// **"How did I get here?"**
+
+// * You could only have arrived here from **step 3** (`i - 1`) or **step 2** (`i - 2`).
+// * Since the loop calculates smaller steps first, `dp[i - 1]` and `dp[i - 2]` already have their answers.
+// * You cannot use `dp[i + 1]` or `dp[i + 2]` because the loop hasn't reached those future steps yet—they are still empty.
+
+// Therefore:
+
+// ```cpp
+// dp[i] = dp[i - 1] + dp[i - 2];
+// ```
+
+// ---
+
+// ## 💡 Summary
+
+// | Approach                   | Where do you start?     | Direction                                          | Formula                   |
+// | -------------------------- | ----------------------- | -------------------------------------------------- | ------------------------- |
+// | **Top-Down (Recursion)**   | Start at `0`, go to `n` | **Forward** — looking at what choices you can make | `fun(i + 1) + fun(i + 2)` |
+// | **Bottom-Up (Tabulation)** | Start at `2`, go to `n` | **Backward** — looking at where you came from      | `dp[i - 1] + dp[i - 2]`   |
