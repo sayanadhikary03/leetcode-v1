@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
+| [0045-jump-game-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
