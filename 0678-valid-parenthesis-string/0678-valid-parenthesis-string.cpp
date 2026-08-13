@@ -1,86 +1,115 @@
 class Solution {
 public:
-    int dp[101][101];
-
-    bool solve(string &s, int ind, int cnt) {
-
-        // Too many closing brackets
-        if (cnt < 0)
-            return false;
-
-        // End of string
-        if (ind == s.length())
-            return cnt == 0;
-
-        // Already calculated
-        if (dp[ind][cnt] != -1)
-            return dp[ind][cnt];
-
-        // '('
-        if (s[ind] == '(') {
-            return dp[ind][cnt] =
-                solve(s, ind + 1, cnt + 1);
-        }
-
-        // ')'
-        if (s[ind] == ')') {
-            return dp[ind][cnt] =
-                solve(s, ind + 1, cnt - 1);
-        }
-
-        // '*'
-        return dp[ind][cnt] =
-            solve(s, ind + 1, cnt + 1) ||   // '*' = '('
-            solve(s, ind + 1, cnt - 1) ||   // '*' = ')'
-            solve(s, ind + 1, cnt);         // '*' = ""
-    }
-
     bool checkValidString(string s) {
-        memset(dp, -1, sizeof(dp));
 
-        return solve(s, 0, 0);
+        // low  = minimum possible balance
+        // high = maximum possible balance
+        //
+        // Balance means:
+        // '(' -> +1
+        // ')' -> -1
+        //
+        // '*' can be:
+        // '('  -> +1
+        // ')'  -> -1
+        // ""   ->  0
+        //
+        // Example: s = "(*)"
+        //
+        // After '(':
+        // low = 1, high = 1
+        //
+        // After '*':
+        // '*' can be ')' -> balance 0
+        // '*' can be ""  -> balance 1
+        // '*' can be '(' -> balance 2
+        //
+        // Therefore:
+        // low = 0, high = 2
+        //
+        // We only store the minimum and maximum,
+        // not every possible balance.
+
+        int low = 0;
+        int high = 0;
+
+        for (char c : s) {
+
+            if (c == '(') {
+
+                // '(' must increase balance
+                low++;
+                high++;
+            }
+
+            else if (c == ')') {
+
+                // ')' must decrease balance
+                low--;
+                high--;
+            }
+
+            else { // c == '*'
+
+                // For MINIMUM balance:
+                // Assume '*' = ')'
+                low--;
+
+                // For MAXIMUM balance:
+                // Assume '*' = '('
+                high++;
+
+                // '*' = "" is automatically somewhere
+                // between low and high.
+            }
+
+            // If even the MAXIMUM possible balance
+            // is negative, there is NO possible way
+            // to make the string valid.
+            //
+            // Example: ")"
+            //
+            // low  = -1
+            // high = -1
+            //
+            // Even the best possibility is negative.
+            if (high < 0)
+                return false;
+
+            // Negative LOW does NOT necessarily mean invalid.
+            //
+            // It only means the minimum possibility is bad.
+            // There may still be valid possibilities.
+            //
+            // Example: "(*)"
+            // At the end we may get:
+            // low = -1, high = 1
+            //
+            // We throw away the impossible negative balance
+            // and keep low = 0.
+            if (low < 0)
+                low = 0;
+        }
+
+        // At the end, we need at least one possibility
+        // with balance = 0.
+        //
+        // low represents the smallest possible balance.
+        // Since low can never be negative here,
+        // low == 0 means balance 0 is possible.
+        //
+        // Example:
+        //
+        // "(*))"
+        //
+        // One valid interpretation:
+        // '*' = '('
+        //
+        // "(*))"
+        //   ↓
+        // "(())"
+        //
+        // So the answer is true.
+        return low == 0;
     }
 };
-
-// example ->     s = "(*))"
-        //                  f(0,0)
-        //                     |
-        //                     | '('
-        //                     | cnt + 1
-        //                     ↓
-        //                  f(1,1)
-        //                     |
-        //                     | '*'
-        //      ┌──────────────┼──────────────┐
-        //      |              |              |
-        //   '*'='('        '*'=')'        '*'=''
-        //      |              |              |
-        //   cnt+1          cnt-1           cnt
-        //      ↓              ↓              ↓
-        //   f(2,2)         f(2,0)         f(2,1)
-        //      |              |              |
-        //      | ')'          | ')'          | ')'
-        //      | cnt-1        | cnt-1        | cnt-1
-        //      ↓              ↓              ↓
-        //   f(3,1)         f(3,-1)        f(3,0)
-        //      |              X              |
-        //      | ')'                         | ')'
-        //      | cnt-1                       | cnt-1
-        //      ↓                             ↓
-        //   f(4,0)                         f(4,-1)
-        //      |                              |
-        //   cnt == 0                       cnt < 0
-        //      ↓                              ↓
-        //   TRUE ✅                         FALSE ❌
-
-//Any left parenthesis '(' must have a corresponding right parenthesis ')'.
-// ( )
-
-//Any left parenthesis '(' must have a corresponding right parenthesis ')'.
-// ) (
-
-//Left parenthesis '(' must go before the corresponding right parenthesis ')'.
-// ( )
-
-//'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string "".
-// * -> ), (, ""
