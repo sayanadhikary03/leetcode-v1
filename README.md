@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
 | [0093-restore-ip-addresses](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0093-restore-ip-addresses) |
+| [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0143-reorder-list) |
+| [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Monotonic Stack
 |  |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
 | [0509-fibonacci-number](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0509-fibonacci-number) |
+| [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 ## Math
 |  |
 | ------- |
@@ -184,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0509-fibonacci-number) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
