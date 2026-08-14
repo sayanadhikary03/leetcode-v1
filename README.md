@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0135-candy](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0135-candy) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
+| [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0135-candy) |
+| [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
@@ -69,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0016-3sum-closest) |
+| [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
+| [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0509-fibonacci-number](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0509-fibonacci-number) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 ## Math
