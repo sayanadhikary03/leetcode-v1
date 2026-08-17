@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0135-candy](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0135-candy) |
+| [0198-house-robber](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
+| [0198-house-robber](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0509-fibonacci-number](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0509-fibonacci-number) |
