@@ -1,36 +1,26 @@
 class Solution {
 public:
+    int rob(vector<int>& nums) {
 
-    vector<int>dp;
+        //Tabulation(with space optimization)
+        //To reduce the space from O(n) to O(1)
 
-    int findingMax(vector<int>& nums, int i){
-        //Base Case
-        if(i >= nums.size()){
-            return 0;
-        };
+        int n = nums.size();
 
-        // Already calculated
-        if(dp[i] != -1){
-            return dp[i];
+        int next1 = 0; //[i+1]
+        int next2 = 0; //[i+2]
+
+        for(int i = n-1; i >= 0; i--){
+
+            int rob = nums[i] + next2;
+            int skip = next1;
+
+            int current = max(rob, skip);
+
+            next2 = next1;
+            next1 = current;
         }
 
-        // Option 1: Rob current house
-        // So we must jump to i+2
-        int rob = nums[i] + findingMax(nums,i+2);
-
-        // Option 2: Skip current house
-        // So we move to i+1
-        int skip = findingMax(nums, i+1);
-
-        // Store the best answer for this index
-        return dp[i] = max(rob, skip);
-    }
-
-    int rob(vector<int>& nums) {
-        // Initially nothing is calculated
-        dp.resize(nums.size(), -1);
-        
-        // Start from house 0
-        return findingMax(nums,0);
+        return next1;
     }
 };
