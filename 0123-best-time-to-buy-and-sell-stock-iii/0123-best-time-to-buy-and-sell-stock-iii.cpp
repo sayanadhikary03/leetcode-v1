@@ -1,36 +1,48 @@
 class Solution {
 public:
-    //TABULATION 
-    // Time: O(n × 2 × 2) → O(n)
-    // Space: O(n × 2 × 3) → O(n)
     int maxProfit(vector<int>& prices) {
 
-        int n = prices.size();
+        // For cap = 2
+        int aheadBuy2 = 0;
+        int aheadNotBuy2 = 0;
 
-        //dp[n][buy][cap]
-        vector<vector<vector<int>>>dp(n+1, vector<vector<int>>(2,vector<int>(3,0)));
+        // For cap = 1
+        int aheadBuy1 = 0;
+        int aheadNotBuy1 = 0;
 
-        for(int i = n-1; i >= 0; i--){
-            for(int buy = 0; buy <= 1; buy++){
-                for(int cap =1; cap <=2; cap++){
+        for(int i = prices.size() - 1; i >= 0; i--) {
 
-                    int profit = 0;
+            // Current values for cap = 2
+            int curBuy2 = max(
+                -prices[i] + aheadNotBuy2,
+                aheadBuy2
+            );
 
-                    if(buy){
-                        // BUY or SKIP
-                        profit = max(-prices[i] + dp[i+1][0][cap],
-                                        0 + dp[i+1][1][cap]);
-                    }
-                    else{
-                        // SELL or SKIP
-                        profit = max(prices[i] + dp[i+1][1][cap-1],
-                                        0 + dp[i+1][0][cap]);
-                    }
-                    dp[i][buy][cap] = profit;
-                }
-            }
+            int curNotBuy2 = max(
+                prices[i] + aheadBuy1,
+                aheadNotBuy2
+            );
+
+            // Current values for cap = 1
+            int curBuy1 = max(
+                -prices[i] + aheadNotBuy1,
+                aheadBuy1
+            );
+
+            int curNotBuy1 = max(
+                prices[i] + 0,
+                aheadNotBuy1
+            );
+
+            // Move current → ahead
+            aheadBuy2 = curBuy2;
+            aheadNotBuy2 = curNotBuy2;
+
+            aheadBuy1 = curBuy1;
+            aheadNotBuy1 = curNotBuy1;
         }
-        return dp[0][1][2];
+
+        return aheadBuy2;
     }
 };
 
