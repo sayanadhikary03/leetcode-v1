@@ -1,11 +1,12 @@
 // ============================================================
-// 3. TABULATION
+// 4. SPACE OPTIMIZATION
 //
 // State:
-// dp[i][tranNo]
+// after[tranNo] → dp[i+1][tranNo]
+// cur[tranNo]   → dp[i][tranNo]
 //
 // Time: O(n * k)
-// Space: O(n * k)
+// Space: O(k)
 // ============================================================
 
 class Solution {
@@ -15,17 +16,12 @@ public:
 
         int n = prices.size();
 
-        // dp[i][tranNo]
-        vector<vector<int>> dp(
-            n + 1,
-            vector<int>(2 * k + 1, 0)
-        );
+        // after = dp[i+1]
+        vector<int> after(2 * k + 1, 0);
 
-        // dp[n][...] = 0
-        // Already initialized to 0.
-        //
-        // tranNo = 2*k is also 0.
-        
+        // cur = dp[i]
+        vector<int> cur(2 * k + 1, 0);
+
         for(int i = n - 1; i >= 0; i--) {
 
             for(int tranNo = 2 * k - 1;
@@ -38,8 +34,8 @@ public:
 
                     // BUY or SKIP
                     profit = max(
-                        -prices[i] + dp[i + 1][tranNo + 1],
-                        0 + dp[i + 1][tranNo]
+                        -prices[i] + after[tranNo + 1],
+                        0 + after[tranNo]
                     );
 
                 }
@@ -47,15 +43,42 @@ public:
 
                     // SELL or SKIP
                     profit = max(
-                        prices[i] + dp[i + 1][tranNo + 1],
-                        0 + dp[i + 1][tranNo]
+                        prices[i] + after[tranNo + 1],
+                        0 + after[tranNo]
                     );
                 }
 
-                dp[i][tranNo] = profit;
+                cur[tranNo] = profit;
             }
+
+            // Current row becomes next row
+            after = cur;
         }
 
-        return dp[0][0];
+        return after[0];
     }
 };
+
+//                  STOCK IV
+//                     │
+//                     ↓
+//           State = (i, tranNo)
+//                     │
+//         ┌───────────┴───────────┐
+//         ↓                       ↓
+//    tranNo even             tranNo odd
+//         ↓                       ↓
+//       BUY                     SELL
+//         │                       │
+//         └───────────┬───────────┘
+//                     ↓
+//                tranNo + 1
+
+// ┌─────────────────┬────────────┬──────────────┐
+// │ Approach        │ Time       │ Space        │
+// ├─────────────────┼────────────┼──────────────┤
+// │ Recursion       │ Exponential│ O(n) stack   │
+// │ Memoization     │ O(n × k)   │ O(n × k)     │
+// │ Tabulation      │ O(n × k)   │ O(n × k)     │
+// │ Space Optimized │ O(n × k)   │ O(k)         │
+// └─────────────────┴────────────┴──────────────┘
