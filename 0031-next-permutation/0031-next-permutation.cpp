@@ -27,3 +27,15 @@ public:
         reverse(nums.begin() + pivot + 1, nums.end());
         }
 };
+
+//         Pivot
+//           ↓
+// [ 1   2 | 4   3 ]
+
+//           ↓ swap 2 and 3
+
+// [ 1   3 | 4   2 ]
+
+//           ↓ reverse suffix
+
+// [ 1   3 | 2   4 ]
