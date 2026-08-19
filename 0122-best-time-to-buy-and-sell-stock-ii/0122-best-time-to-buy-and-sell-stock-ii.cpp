@@ -1,32 +1,39 @@
 class Solution {
 public:
-
-    int solve(int i, int buy, vector<int>& prices, vector<vector<int>>& dp){
-
-        //base case
-        if(i == prices.size()) return 0;
-
-        int profit = 0;
-
-        if(dp[i][buy] != -1) return dp[i][buy];
-
-        if(buy){
-            profit = max(-prices[i] + solve(i+1, 0, prices, dp),
-                            0 + solve(i+1, 1, prices, dp));
-        }
-        else{
-            profit = max(prices[i] + solve(i+1, 1, prices, dp),
-                            0 + solve(i+1, 0, prices, dp));
-        }
-        return dp[i][buy] = profit;
-    }
-
     int maxProfit(vector<int>& prices) {
-        
-        int n = prices.size();
 
-        // dp[n][2]
-        vector<vector<int>>dp(n, vector<int>(2,-1));
-        return solve(0, 1, prices, dp);
+        // Vector version              Variable version
+
+        // next[1]       ─────────→    aheadBuy
+        // next[0]       ─────────→    aheadNotBuy
+
+        // current[1]    ─────────→    curBuy
+        // current[0]    ─────────→    curNotBuy
+
+        int aheadBuy = 0;
+        int aheadNotBuy = 0;
+
+        for(int i = prices.size() - 1; i >= 0; i--) {
+
+            int curBuy = max(
+                -prices[i] + aheadNotBuy,
+                aheadBuy
+            );
+
+            int curNotBuy = max(
+                prices[i] + aheadBuy,
+                aheadNotBuy
+            );
+
+            aheadBuy = curBuy;
+            aheadNotBuy = curNotBuy;
+        }
+
+        return aheadBuy;
     }
 };
+
+// Recursion       → O(2^n) time, O(n) stack
+// Memoization     → O(n) time, O(n) DP + stack
+// Tabulation      → O(n) time, O(n) DP
+// Space optimized → O(n) time, O(1) space
