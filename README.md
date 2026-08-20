@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
+| [0090-subsets-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0093-restore-ip-addresses) |
 ## Enumeration
 |  |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0231-power-of-two) |
 ## Memoization
 |  |
