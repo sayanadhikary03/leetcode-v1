@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0509-fibonacci-number) |
 | [1903-largest-odd-number-in-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1903-largest-odd-number-in-string) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Bit Manipulation
 |  |
 | ------- |
