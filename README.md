@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1903-largest-odd-number-in-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1903-largest-odd-number-in-string) |
 ## Sorting
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -112,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -136,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0033-search-in-rotated-sorted-array) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Stack
 |  |
@@ -250,4 +255,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0023-merge-k-sorted-lists) |
+## Prefix Sum
+|  |
+| ------- |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
