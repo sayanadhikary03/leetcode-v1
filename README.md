@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0143-reorder-list) |
+| [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Monotonic Stack
@@ -259,4 +260,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
