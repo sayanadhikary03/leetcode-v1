@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0084-largest-rectangle-in-histogram) |
+| [0094-binary-tree-inorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
@@ -263,13 +264,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
