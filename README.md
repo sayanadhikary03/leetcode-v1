@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
+| [0127-word-ladder](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 | [0205-isomorphic-strings](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0205-isomorphic-strings) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0072-edit-distance) |
 | [0093-restore-ip-addresses](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0093-restore-ip-addresses) |
+| [0127-word-ladder](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0205-isomorphic-strings) |
 | [0678-valid-parenthesis-string](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0678-valid-parenthesis-string) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0127-word-ladder](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0199-binary-tree-right-side-view) |
 | [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1376-time-needed-to-inform-all-employees) |
@@ -320,4 +323,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0543-diameter-of-binary-tree) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
