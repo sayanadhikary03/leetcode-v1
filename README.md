@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
+| [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
+| [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Greedy
 |  |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0199-binary-tree-right-side-view) |
+| [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1376-time-needed-to-inform-all-employees) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Graph Theory
