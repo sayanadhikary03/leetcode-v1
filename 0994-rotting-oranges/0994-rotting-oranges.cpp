@@ -13,6 +13,8 @@ public:
                     vis[i][j] = 2;
                 }
                 else {
+                        // Keep 0 (empty) and 1 (fresh orange) as they are
+    // so we can identify fresh oranges during BFS
                     vis[i][j] = grid[i][j];
                 }
             }
