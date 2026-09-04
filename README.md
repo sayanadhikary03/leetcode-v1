@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0135-candy) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0036-valid-sudoku) |
+| [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Greedy
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1376-time-needed-to-inform-all-employees) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -196,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Backtracking
 |  |
@@ -303,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [0543-diameter-of-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0543-diameter-of-binary-tree) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1376-time-needed-to-inform-all-employees) |
 ## Binary Tree
