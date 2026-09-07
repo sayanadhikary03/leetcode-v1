@@ -8,6 +8,25 @@
  * };
  */
 
+// 1. Make parent map
+//        child → parent
+
+// 2. Start BFS from target
+
+// 3. From every node, try 3 directions:
+
+//        parent
+//           ↑
+//           |
+// left ← current → right
+
+// 4. visited[] prevents going back
+
+// 5. Each BFS level = 1 distance
+
+// 6. When distance == k
+//    → queue contains the answer
+
 class Solution {
 public:
 
