@@ -1,25 +1,38 @@
 class Solution {
 public:
+    // Morris Preorder Traversal
+    // Time: O(n) | Space: O(1)
+
     vector<int> preorderTraversal(TreeNode* root) {
-        vector<int> pre;
-        if (root == NULL) return pre;
+        vector<int> ans;
+        TreeNode* curr = root;
 
-        stack<TreeNode*> st;
-        st.push(root);
-
-        while (!st.empty()) {
-            TreeNode* node = st.top();
-            st.pop();
-
-            pre.push_back(node->val);
-
-            if (node->right != NULL)
-                st.push(node->right);
-
-            if (node->left != NULL)
-                st.push(node->left);
+        while (curr != NULL) {
+            if (curr->left == NULL) {
+                // No left subtree → visit curr
+                ans.push_back(curr->val);
+                curr = curr->right;
+            } else {
+                // Find inorder predecessor
+                // = rightmost node in left subtree
+                TreeNode* IP = curr->left;
+                while (IP->right != NULL && IP->right != curr) {
+                    IP = IP->right;
+                }
+                if (IP->right == NULL) {
+                    // First time at curr → visit curr BEFORE going left
+                    ans.push_back(curr->val);
+                    // Create temporary thread to come back to curr
+                    IP->right = curr;
+                    curr = curr->left;
+                } else {
+                    // Coming back through the thread
+                    // Remove the temporary link
+                    IP->right = NULL;
+                    curr = curr->right;
+                }
+            }
         }
-
-        return pre;
+        return ans;
     }
 };
