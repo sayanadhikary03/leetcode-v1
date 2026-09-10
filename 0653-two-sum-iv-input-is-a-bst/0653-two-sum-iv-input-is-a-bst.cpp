@@ -11,119 +11,50 @@
  * };
  */
 
-class BSTIterator {
-    stack<TreeNode*> myStack;
-
-    // false -> normal inorder:  smallest to largest
-    // true  -> reverse inorder: largest to smallest
-    bool reverse;
-
-public:
-
-    // Constructor
-    BSTIterator(TreeNode* root, bool isReverse) {
-
-        reverse = isReverse;
-
-        // Put the initial path into the stack
-        pushAll(root);
-    }
-
-    // Returns true if there are still nodes left
-    bool hasNext() {
-        return !myStack.empty();
-    }
-
-    // Returns the next element
-    int next() {
-
-        // Get the top node from the stack
-        TreeNode* tmpNode = myStack.top();
-        myStack.pop();
-
-        // If normal inorder:
-        // after visiting a node, go to its right subtree
-        if (!reverse)
-            pushAll(tmpNode->right);
-
-        // If reverse inorder:
-        // after visiting a node, go to its left subtree
-        else
-            pushAll(tmpNode->left);
-
-        return tmpNode->val;
-    }
-
-private:
-
-    // Push nodes along one side of the tree
-    void pushAll(TreeNode* node) {
-
-        while (node != NULL) {
-
-            myStack.push(node);
-
-            if (reverse) {
-
-                // Reverse inorder:
-                // Right -> Root -> Left
-                // So go as far right as possible
-                node = node->right;
-
-            } else {
-
-                // Normal inorder:
-                // Left -> Root -> Right
-                // So go as far left as possible
-                node = node->left;
-            }
-        }
-    }
-};
-
-
 class Solution {
 public:
-
     bool findTarget(TreeNode* root, int k) {
 
-        // Empty tree cannot contain two elements
-        if (!root)
-            return false;
+        // Store BST elements in sorted order
+        vector<int> arr;
+        inorder(root, arr);
 
-        // Iterator 1:
-        // Gives elements from smallest to largest
-        BSTIterator l(root, false);
+        // Two pointers
+        int left = 0;
+        int right = arr.size() - 1;
 
-        // Iterator 2:
-        // Gives elements from largest to smallest
-        BSTIterator r(root, true);
+        while (left < right) {
 
-        // Start with the smallest element
-        int i = l.next();
+            int sum = arr[left] + arr[right];
 
-        // Start with the largest element
-        int j = r.next();
-
-        // Continue until the two pointers meet/cross
-        while (i < j) {
-
-            // Found two elements whose sum is k
-            if (i + j == k)
+            // Found the pair
+            if (sum == k)
                 return true;
 
-            // Sum is too small:
-            // Need a bigger number
-            else if (i + j < k)
-                i = l.next();
+            // Need a bigger sum
+            if (sum < k)
+                left++;
 
-            // Sum is too large:
-            // Need a smaller number
+            // Need a smaller sum
             else
-                j = r.next();
+                right--;
         }
 
-        // No pair found
         return false;
+    }
+
+    void inorder(TreeNode* root, vector<int>& arr) {
+
+        if (root == NULL)
+            return;
+
+        // Left
+        inorder(root->left, arr);
+
+        // Root
+        arr.push_back(root->val);
+
+        // Right
+        inorder(root->right, arr);
     }
 };
