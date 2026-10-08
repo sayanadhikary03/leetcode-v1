@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0213-house-robber-ii) |
+| [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0205-isomorphic-strings) |
+| [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0016-3sum-closest) |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [1331-rank-transform-of-an-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1331-rank-transform-of-an-array) |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/sayanadhikary03/leetcode-v1/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Quicksort
 |  |
@@ -417,4 +421,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
