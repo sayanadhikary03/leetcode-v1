@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0033-search-in-rotated-sorted-array) |
 | [0222-count-complete-tree-nodes](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0222-count-complete-tree-nodes) |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -308,10 +310,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0023-merge-k-sorted-lists) |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
 ## Merge Sort
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0023-merge-k-sorted-lists) |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
 ## Tournament Sort
 |  |
 | ------- |
@@ -427,4 +431,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
