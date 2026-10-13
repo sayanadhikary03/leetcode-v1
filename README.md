@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0493-reverse-pairs) |
+| [0560-subarray-sum-equals-k](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0560-subarray-sum-equals-k) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0994-rotting-oranges) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0229-majority-element-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0981-time-based-key-value-store) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/sayanadhikary03/leetcode-v1/tree/master/0560-subarray-sum-equals-k) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/sayanadhikary03/leetcode-v1/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Tree
 |  |
